@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "p7-concevez-et-analysez-une-base-de-donnees-nosql"
+version = "0.1.0"
+description = ""
+authors = ["yanggautier <yangguole@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+pymongo = "^4.10.1"
+polars = "^1.17.1"
+jupyterlab = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
